@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section id="hangman">
+        <div id="output"></div>
+        <div id="word"></div>
+        <div id="category"></div>
+        <div id="letters"></div>
+
+    </section>
+    <script src="./App/Game.js"></script>
+    <script>
+        const Hangman = new Game({
+            letterWrapper: document.getElementById('letters'),
+            categoryWrapper: document.getElementById('category'),
+            wordWrapper: document.getElementById('word'),
+            outputWrapper: document.getElementById('output'),
+        })
+        Hangman.init()
+    </script>
+</body>
+</html>
