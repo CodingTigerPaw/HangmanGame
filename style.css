@@ -1,0 +1,29 @@
+#output, #letters{
+    margin: 0 auto;
+}
+#letters{
+    width: 50%;
+    text-align: center;
+    margin-top: 10px;
+}
+#output{
+    width: 80%;
+    height: 50px;
+    border: 2px solid #000;
+}
+#category{
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+}
+.btn{
+    background: none;
+    border: none;
+    font-size: 24px;
+    padding: 5px;
+}
+.btn:hover{
+    background-color: #bbb;
+    color: #fff;
+    cursor: pointer
+}
